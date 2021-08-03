@@ -26,7 +26,7 @@ func main() {
 
 func doUnary(c pb.CalculatorServiceClient) {
 	log.Printf("Starting Sum request")
-	var first_number, second_number int32 = 2, 3
+	var first_number, second_number int32 = 40, 2
 	if len(os.Args) > 2 {
 		f64,_ := strconv.ParseInt(os.Args[1], 10, 32)
 		s64,_ := strconv.ParseInt(os.Args[2], 10, 32)
