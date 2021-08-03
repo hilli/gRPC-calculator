@@ -30,7 +30,6 @@ func main() {
 
 	s := grpc.NewServer()
 	pb.RegisterCalculatorServiceServer(s, &server{})
-	// calculatorpb.RegisterCalculatorServiceServer(s, &server{})
 
 	// Register reflection service on gRPC server.
 	reflection.Register(s)
