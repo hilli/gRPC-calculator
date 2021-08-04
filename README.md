@@ -47,6 +47,11 @@ $ calculator-client 5 9
 
 ## Developing Setup
 
-- Make sure you are on go >= 1.16
+- Make sure you are on a recent version of go (>= 1.15 would be my guess)
+
 - Have `protoc` installed (Ie `brew install protobuf`) to generate code from the `.proto` files
+- Have `protoc-gen-grpc-web` (Ie `brew install protoc-gen-grpc-web`) to generate the JS/TS code.
+
 - Run `./devsetup.sh` to get the go specific generators installed to your `$GOPATH/bin`.
+- Run `protoc @protoc.options` to generate protobuf source for both Go and JS/TS.
+
