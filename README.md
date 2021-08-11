@@ -53,5 +53,5 @@ $ calculator-client 5 9
 - Have `protoc-gen-grpc-web` (Ie `brew install protoc-gen-grpc-web`) to generate the JS/TS code.
 
 - Run `./devsetup.sh` to get the go specific generators installed to your `$GOPATH/bin`.
-- Run `protoc @protoc.options` to generate protobuf source for both Go and JS/TS.
+- Run `protoc @protoc.options` to generate protobuf source for both Go and JS.
 
