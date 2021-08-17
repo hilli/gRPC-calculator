@@ -55,3 +55,8 @@ $ calculator-client 5 9
 - Run `./devsetup.sh` to get the go specific generators installed to your `$GOPATH/bin`.
 - Run `protoc @protoc.options` to generate protobuf source for both Go and JS.
 
+## Related notes
+
+- Commandline Reflection CLI [evans](https://github.com/ktr0731/evans)
+- [On gRPC and errors](https://avi.im/grpc-errors/#go)
+- [On gRPC and deadlines](https://grpc.io/blog/deadlines/)
